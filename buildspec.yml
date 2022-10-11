@@ -13,7 +13,6 @@ phases:
     pre_build:
         commands:
             - echo "Pre build phase execution is going to start"
-            - " apt-get update --allow-releaseinfo-change "
             - " sudo apt update -y "
             - echo "installing source wordpress dependancies"
             - sudo apt install nginx -y
