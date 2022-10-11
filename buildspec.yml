@@ -4,10 +4,10 @@ run-as: root
 
 env:
    parameter-store:
-             DB_NAME: "/kunjan/DB_NAME"
-             DB_USER: "/kunjan/DB_USER"
-             DB_PASSWORD: "/kunjan/DB_PASSWORD"
-             DB_HOST: "/kunjan/DB_Host"
+             DB_NAME: "/manisha/DB_NAME"
+             DB_USER: "/manisha/DB_USER"
+             DB_PASSWORD: "/manisha/DB_PASSWORD"
+             DB_HOST: "/manisha/DB_Host"
 
 phases: 
     pre_build:
