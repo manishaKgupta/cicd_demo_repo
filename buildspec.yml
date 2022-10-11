@@ -13,7 +13,7 @@ phases:
     pre_build:
         commands:
             - echo "Pre build phase execution is going to start"
-            - sudo apt update -y
+            #- sudo apt update -y
             - echo "installing source wordpress dependancies"
             - sudo apt install nginx -y
             - sudo apt install php-fpm php-mysql php-curl php-gd php-intl php-soap php-xml php-xmlrpc php-zip php-mbstring php-soap -y
