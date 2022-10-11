@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/kunjanwp.rtd.squareops.co.in
+    destination: /var/www/manisha.rtd.squareops.co.in
     overwrite: true
 
 hooks:
