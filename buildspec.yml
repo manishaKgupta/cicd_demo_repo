@@ -13,8 +13,8 @@ phases:
     pre_build:
         commands:
             - echo "Pre build phase execution is going to start"
-            - apt-get update --allow-releaseinfo-change
-            - sudo apt update -y
+            - " apt-get update --allow-releaseinfo-change "
+            - " sudo apt update -y "
             - echo "installing source wordpress dependancies"
             - sudo apt install nginx -y
             - sudo apt install php-fpm php-mysql php-curl php-gd php-intl php-soap php-xml php-xmlrpc php-zip php-mbstring php-soap -y
